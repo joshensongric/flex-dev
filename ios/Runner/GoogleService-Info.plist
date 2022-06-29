@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>668437912809-r6cnde2cqkj3lbq00jtfu9fvmbefab7u.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.668437912809-r6cnde2cqkj3lbq00jtfu9fvmbefab7u</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>668437912809-uo809c94s9b0ccre0ft5nctvebm2qg4i.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAXh9rnQ9Y5Z4R0VqBF3YsJC0wFIIXJPTw</string>
+	<key>GCM_SENDER_ID</key>
+	<string>668437912809</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.flexmoney.dev</string>
+	<key>PROJECT_ID</key>
+	<string>flexmoney-dev</string>
+	<key>STORAGE_BUCKET</key>
+	<string>flexmoney-dev.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:668437912809:ios:09cefb69fde57f3b596478</string>
+</dict>
+</plist>
