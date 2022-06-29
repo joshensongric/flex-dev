@@ -1,17 +1,17 @@
 import '../flutter_flow/flutter_flow_theme.dart';
 import '../flutter_flow/flutter_flow_util.dart';
-import '../flutter_flow/flutter_flow_web_view.dart';
+import '../custom_code/widgets/index.dart' as custom_widgets;
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class WebviewWidget extends StatefulWidget {
-  const WebviewWidget({Key key}) : super(key: key);
+class CustomWebviewWidget extends StatefulWidget {
+  const CustomWebviewWidget({Key key}) : super(key: key);
 
   @override
-  _WebviewWidgetState createState() => _WebviewWidgetState();
+  _CustomWebviewWidgetState createState() => _CustomWebviewWidgetState();
 }
 
-class _WebviewWidgetState extends State<WebviewWidget> {
+class _CustomWebviewWidgetState extends State<CustomWebviewWidget> {
   final scaffoldKey = GlobalKey<ScaffoldState>();
 
   @override
@@ -41,15 +41,14 @@ class _WebviewWidgetState extends State<WebviewWidget> {
             mainAxisSize: MainAxisSize.max,
             children: [
               Expanded(
-                child: Padding(
-                  padding: EdgeInsetsDirectional.fromSTEB(0, 20, 0, 0),
-                  child: FlutterFlowWebView(
-                    url: 'https://www.google.com',
-                    bypass: true,
+                child: Align(
+                  alignment: AlignmentDirectional(0, 0),
+                  child: custom_widgets.CustomWebView(
                     width: MediaQuery.of(context).size.width,
-                    height: MediaQuery.of(context).size.height * 1,
-                    verticalScroll: false,
-                    horizontalScroll: false,
+                    height: 500,
+                    bypass: false,
+                    html:
+                        '<!DOCTYPE html>\n<html>\n<body>\n\n<h1>My First Heading</h1>\n<p>My first paragraph.</p>\n\n</body>\n</html>',
                   ),
                 ),
               ),
